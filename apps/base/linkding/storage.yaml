@@ -2,7 +2,7 @@ kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
   name: linkding-data-pvc
-  namespace: linkding
+#  namespace: linkding
 spec:
   storageClassName: nfs-client
   accessModes:
